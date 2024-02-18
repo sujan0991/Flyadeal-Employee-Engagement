@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:Flyadeal Employee Engagement.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Auth/Auth.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Common/Common.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Feature">
+      <FileRef
+         location = "group:StaffDirectory/StaffDirectory.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Feed/Feed.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:News/News.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Inbox/Inbox.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Events/Events.xcodeproj">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

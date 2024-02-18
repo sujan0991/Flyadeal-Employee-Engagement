@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>571912872761-u3hlsjlpmta5sva47ul2hfloh98uirqi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.571912872761-u3hlsjlpmta5sva47ul2hfloh98uirqi</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBNmaM3K8f2QZJ63ekBy8WHOwQM-qOqk0k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>571912872761</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.flowdigital.Pulse</string>
+	<key>PROJECT_ID</key>
+	<string>pulse-15676</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pulse-15676.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:571912872761:ios:375f2318a96706b7</string>
+	<key>DATABASE_URL</key>
+	<string>https://pulse-15676.firebaseio.com</string>
+</dict>
+</plist>

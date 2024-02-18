@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		638A9C0DCD6E508971177891 /* Pods_Flyadeal_Employee_Engagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EB76BFE5921D367D1D3DAD /* Pods_Flyadeal_Employee_Engagement.framework */; };
+		6435122E225F2B73007CBF12 /* Auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6435122D225F2B73007CBF12 /* Auth.framework */; };
+		6435122F225F2B73007CBF12 /* Auth.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6435122D225F2B73007CBF12 /* Auth.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6435123922649D35007CBF12 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6435123822649D35007CBF12 /* Common.framework */; };
+		6435123B22649D3C007CBF12 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6435123822649D35007CBF12 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		644526992237A0D60099FB37 /* ParenTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644526982237A0D60099FB37 /* ParenTabViewController.swift */; };
+		644A48C822818891009E1B9A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 644A48C722818891009E1B9A /* GoogleService-Info.plist */; };
+		6456B2AC22C2142A005F6198 /* sound2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6456B2AA22C21429005F6198 /* sound2.m4a */; };
+		6456B2AD22C2142A005F6198 /* sound1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6456B2AB22C21429005F6198 /* sound1.m4a */; };
+		6460A75E22E1AEF300452CC5 /* StaffDirectory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6460A75D22E1AEF300452CC5 /* StaffDirectory.framework */; };
+		6460A75F22E1AEF300452CC5 /* StaffDirectory.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6460A75D22E1AEF300452CC5 /* StaffDirectory.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		64861C0C229BE326008C3B77 /* Inbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E17CDB223678460054F856 /* Inbox.framework */; };
+		64861C0D229BE326008C3B77 /* Inbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 64E17CDB223678460054F856 /* Inbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6491C65222F81B7D00A33599 /* Events.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6491C65122F81B7D00A33599 /* Events.framework */; };
+		6491C65322F81B7D00A33599 /* Events.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6491C65122F81B7D00A33599 /* Events.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		64C719A72271C24A00B204B3 /* CustomNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C719A62271C24A00B204B3 /* CustomNavigationBar.xib */; };
+		64E17C62223672B40054F856 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E17C61223672B40054F856 /* AppDelegate.swift */; };
+		64E17C67223672B40054F856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E17C65223672B40054F856 /* Main.storyboard */; };
+		64E17C69223672B60054F856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E17C68223672B60054F856 /* Assets.xcassets */; };
+		64E17C6C223672B60054F856 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E17C6A223672B60054F856 /* LaunchScreen.storyboard */; };
+		64E17CD3223677A90054F856 /* Feed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E17CD2223677A90054F856 /* Feed.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		64E17CD4223677A90054F856 /* Feed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 64E17CD2223677A90054F856 /* Feed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		64E17CD62236783C0054F856 /* News.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E17CD52236783C0054F856 /* News.framework */; };
+		64E17CD72236783C0054F856 /* News.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 64E17CD52236783C0054F856 /* News.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		64E17CBB2236746D0054F856 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6435122F225F2B73007CBF12 /* Auth.framework in Embed Frameworks */,
+				64E17CD4223677A90054F856 /* Feed.framework in Embed Frameworks */,
+				6435123B22649D3C007CBF12 /* Common.framework in Embed Frameworks */,
+				64E17CD72236783C0054F856 /* News.framework in Embed Frameworks */,
+				6491C65322F81B7D00A33599 /* Events.framework in Embed Frameworks */,
+				64861C0D229BE326008C3B77 /* Inbox.framework in Embed Frameworks */,
+				6460A75F22E1AEF300452CC5 /* StaffDirectory.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B894998917348FBD0778F42 /* Pods-Flyadeal Employee Engagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flyadeal Employee Engagement.debug.xcconfig"; path = "Target Support Files/Pods-Flyadeal Employee Engagement/Pods-Flyadeal Employee Engagement.debug.xcconfig"; sourceTree = "<group>"; };
+		6435122D225F2B73007CBF12 /* Auth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Auth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6435123822649D35007CBF12 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		644526982237A0D60099FB37 /* ParenTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParenTabViewController.swift; sourceTree = "<group>"; };
+		644A48C622818516009E1B9A /* Flyadeal Employee Engagement.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Flyadeal Employee Engagement.entitlements"; sourceTree = "<group>"; };
+		644A48C722818891009E1B9A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6456B2AA22C21429005F6198 /* sound2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound2.m4a; sourceTree = "<group>"; };
+		6456B2AB22C21429005F6198 /* sound1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound1.m4a; sourceTree = "<group>"; };
+		6460A75D22E1AEF300452CC5 /* StaffDirectory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StaffDirectory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6491C65122F81B7D00A33599 /* Events.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Events.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6491C65422F81B8400A33599 /* Events.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Events.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Flyadeal_Employee_Engagement-ehkhebgmxvazildmdasswmldzhsc/Build/Products/Debug-iphoneos/Events.framework"; sourceTree = "<group>"; };
+		64C719A62271C24A00B204B3 /* CustomNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomNavigationBar.xib; path = Common/Common/CustomView/CustomNavigationBar.xib; sourceTree = SOURCE_ROOT; };
+		64E17C5E223672B40054F856 /* Flyadeal Employee Engagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flyadeal Employee Engagement.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E17C61223672B40054F856 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64E17C66223672B40054F856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64E17C68223672B60054F856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64E17C6B223672B60054F856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64E17C6D223672B60054F856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E17CD2223677A90054F856 /* Feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Feed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E17CD52236783C0054F856 /* News.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = News.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E17CDB223678460054F856 /* Inbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Inbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EB76BFE5921D367D1D3DAD /* Pods_Flyadeal_Employee_Engagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flyadeal_Employee_Engagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF77A4DD1A680935A557C590 /* Pods-Flyadeal Employee Engagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flyadeal Employee Engagement.release.xcconfig"; path = "Target Support Files/Pods-Flyadeal Employee Engagement/Pods-Flyadeal Employee Engagement.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64E17C5B223672B40054F856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6435123922649D35007CBF12 /* Common.framework in Frameworks */,
+				6491C65222F81B7D00A33599 /* Events.framework in Frameworks */,
+				6435122E225F2B73007CBF12 /* Auth.framework in Frameworks */,
+				64E17CD3223677A90054F856 /* Feed.framework in Frameworks */,
+				64861C0C229BE326008C3B77 /* Inbox.framework in Frameworks */,
+				6460A75E22E1AEF300452CC5 /* StaffDirectory.framework in Frameworks */,
+				64E17CD62236783C0054F856 /* News.framework in Frameworks */,
+				638A9C0DCD6E508971177891 /* Pods_Flyadeal_Employee_Engagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6435123722649D35007CBF12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9EB76BFE5921D367D1D3DAD /* Pods_Flyadeal_Employee_Engagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6456B2A922C21429005F6198 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6456B2AA22C21429005F6198 /* sound2.m4a */,
+				6456B2AB22C21429005F6198 /* sound1.m4a */,
+			);
+			name = Sounds;
+			path = Inbox/Inbox/Chat/Sounds;
+			sourceTree = SOURCE_ROOT;
+		};
+		64E17C55223672B40054F856 = {
+			isa = PBXGroup;
+			children = (
+				6491C65122F81B7D00A33599 /* Events.framework */,
+				64E17C60223672B40054F856 /* Flyadeal Employee Engagement */,
+				64E17CBC223674EE0054F856 /* FrameWorks */,
+				64E17C5F223672B40054F856 /* Products */,
+				6435123722649D35007CBF12 /* Frameworks */,
+				ED4A5550305B9155F0F7BDAB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		64E17C5F223672B40054F856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64E17C5E223672B40054F856 /* Flyadeal Employee Engagement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64E17C60223672B40054F856 /* Flyadeal Employee Engagement */ = {
+			isa = PBXGroup;
+			children = (
+				6456B2A922C21429005F6198 /* Sounds */,
+				644A48C622818516009E1B9A /* Flyadeal Employee Engagement.entitlements */,
+				64C719A62271C24A00B204B3 /* CustomNavigationBar.xib */,
+				64E17C61223672B40054F856 /* AppDelegate.swift */,
+				64E17C65223672B40054F856 /* Main.storyboard */,
+				64E17C68223672B60054F856 /* Assets.xcassets */,
+				64E17C6A223672B60054F856 /* LaunchScreen.storyboard */,
+				644A48C722818891009E1B9A /* GoogleService-Info.plist */,
+				64E17C6D223672B60054F856 /* Info.plist */,
+				644526982237A0D60099FB37 /* ParenTabViewController.swift */,
+			);
+			path = "Flyadeal Employee Engagement";
+			sourceTree = "<group>";
+		};
+		64E17CBC223674EE0054F856 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				6491C65422F81B8400A33599 /* Events.framework */,
+				6460A75D22E1AEF300452CC5 /* StaffDirectory.framework */,
+				6435122D225F2B73007CBF12 /* Auth.framework */,
+				64E17CDB223678460054F856 /* Inbox.framework */,
+				64E17CD52236783C0054F856 /* News.framework */,
+				64E17CD2223677A90054F856 /* Feed.framework */,
+				6435123822649D35007CBF12 /* Common.framework */,
+			);
+			name = FrameWorks;
+			sourceTree = "<group>";
+		};
+		ED4A5550305B9155F0F7BDAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B894998917348FBD0778F42 /* Pods-Flyadeal Employee Engagement.debug.xcconfig */,
+				DF77A4DD1A680935A557C590 /* Pods-Flyadeal Employee Engagement.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64E17C5D223672B40054F856 /* Flyadeal Employee Engagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E17C70223672B60054F856 /* Build configuration list for PBXNativeTarget "Flyadeal Employee Engagement" */;
+			buildPhases = (
+				E335322205DFB8B7B163C3B9 /* [CP] Check Pods Manifest.lock */,
+				64E17C5A223672B40054F856 /* Sources */,
+				64E17C5B223672B40054F856 /* Frameworks */,
+				64E17C5C223672B40054F856 /* Resources */,
+				64E17CBB2236746D0054F856 /* Embed Frameworks */,
+				425CF4917E0206EEC37F9E28 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flyadeal Employee Engagement";
+			productName = "Flyadeal Employee Engagement";
+			productReference = 64E17C5E223672B40054F856 /* Flyadeal Employee Engagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64E17C56223672B40054F856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Sujan;
+				TargetAttributes = {
+					64E17C5D223672B40054F856 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 64E17C59223672B40054F856 /* Build configuration list for PBXProject "Flyadeal Employee Engagement" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64E17C55223672B40054F856;
+			productRefGroup = 64E17C5F223672B40054F856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64E17C5D223672B40054F856 /* Flyadeal Employee Engagement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64E17C5C223672B40054F856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C719A72271C24A00B204B3 /* CustomNavigationBar.xib in Resources */,
+				6456B2AD22C2142A005F6198 /* sound1.m4a in Resources */,
+				6456B2AC22C2142A005F6198 /* sound2.m4a in Resources */,
+				64E17C6C223672B60054F856 /* LaunchScreen.storyboard in Resources */,
+				644A48C822818891009E1B9A /* GoogleService-Info.plist in Resources */,
+				64E17C69223672B60054F856 /* Assets.xcassets in Resources */,
+				64E17C67223672B40054F856 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		425CF4917E0206EEC37F9E28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flyadeal Employee Engagement/Pods-Flyadeal Employee Engagement-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DTPagerController/DTPagerController.framework",
+				"${BUILT_PRODUCTS_DIR}/Gloss/Gloss.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DTPagerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gloss.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flyadeal Employee Engagement/Pods-Flyadeal Employee Engagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E335322205DFB8B7B163C3B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flyadeal Employee Engagement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64E17C5A223672B40054F856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644526992237A0D60099FB37 /* ParenTabViewController.swift in Sources */,
+				64E17C62223672B40054F856 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64E17C65223672B40054F856 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E17C66223672B40054F856 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64E17C6A223672B60054F856 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E17C6B223672B60054F856 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64E17C6E223672B60054F856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64E17C6F223672B60054F856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64E17C71223672B60054F856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B894998917348FBD0778F42 /* Pods-Flyadeal Employee Engagement.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Flyadeal Employee Engagement/Flyadeal Employee Engagement.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 55E5R5585A;
+				INFOPLIST_FILE = "Flyadeal Employee Engagement/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"DTPagerController\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseMessaging\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"Gloss\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"IQKeyboardManagerSwift\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"Protobuf\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SocketIO\"",
+					"-framework",
+					"\"Starscream\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SwiftKeychainWrapper\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flowdigital.Pulse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Pulse development";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64E17C72223672B60054F856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF77A4DD1A680935A557C590 /* Pods-Flyadeal Employee Engagement.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Flyadeal Employee Engagement/Flyadeal Employee Engagement.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 55E5R5585A;
+				INFOPLIST_FILE = "Flyadeal Employee Engagement/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"DTPagerController\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseMessaging\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"Gloss\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"IQKeyboardManagerSwift\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"Protobuf\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SocketIO\"",
+					"-framework",
+					"\"Starscream\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SwiftKeychainWrapper\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flowdigital.Pulse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Pulse development";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64E17C59223672B40054F856 /* Build configuration list for PBXProject "Flyadeal Employee Engagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E17C6E223672B60054F856 /* Debug */,
+				64E17C6F223672B60054F856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E17C70223672B60054F856 /* Build configuration list for PBXNativeTarget "Flyadeal Employee Engagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E17C71223672B60054F856 /* Debug */,
+				64E17C72223672B60054F856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64E17C56223672B40054F856 /* Project object */;
+}
